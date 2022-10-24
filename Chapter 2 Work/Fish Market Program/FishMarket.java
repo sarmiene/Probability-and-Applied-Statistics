@@ -68,26 +68,6 @@ catch(IOException exe){
     System.out.println("File was not created");
 }
 }
-
-/*private static void importCsv() {
-	
-	ArrayList<Seafood> newseafood = new ArrayList<Seafood>();
-	String file = "seafood.csv";
-	
-	try{
-      BufferedReader br = new BufferedReader(new FileReader(file)); 
-    	  String line = "";
-      while ((line = br.readLine()) != null) {
-    	  newseafood.add(line.split(","));
-    	  
-    	  
-      }
-    }
-  
-catch(IOException exe){
-    System.out.println("File was not created");
-	
-}*/
 }
 
 	
