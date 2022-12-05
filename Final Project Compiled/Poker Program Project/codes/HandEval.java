@@ -8,17 +8,7 @@ public class HandEval {
 	
      public void numTrials(int trials) {
     	 
-    	    
-	        int isPairWins = 0;	        
-	        int threeSameWins = 0;
-	        int fourSameWins = 0;
-	        int all5Suitewins = 0;
-	        int straightWins = 0;
-	        int pairAndThreeWins = 0;
-	        int twoPairWins = 0;
-	        int straightSameSuiteWins = 0;
-	        int rareWins = 0;   
-	        int none = 0;
+	        int isPairWins = 0, threeSameWins = 0,fourSameWins = 0,all5Suitewins = 0,straightWins = 0,pairAndThreeWins = 0,twoPairWins = 0,straightSameSuiteWins = 0, rareWins = 0, none = 0;   	    
 		
  
 		for(int i = 0; i < trials; i++) {
